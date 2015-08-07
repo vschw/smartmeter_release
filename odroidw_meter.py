@@ -224,7 +224,7 @@ def ssh_to_db(power, sleeptime):
     average = [], []
     time.sleep(sleeptime)    
     print 'data sent: '+str(power[0])+'W and '+str(power[1])+'W'
-    #display_power(power)
+    display_power(power)
 
 
 def submit_data_thread(d, **kwargs):
